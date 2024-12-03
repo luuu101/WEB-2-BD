@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body
+  >
+    
+  <body style="background-image: url('IMG/5984487.jpg'); background-size: cover; background-position: center center; background-attachment: fixed;">
+    <!-- Aquí va el contenido de tu página -->
+</body>
+<header>
+      <div class="menu logo-nav">
+        <a href="index.html" class="logo">LINUX SHOP</a>
+        <label class="menu-icon"><span class="fas fa-bars icomin"></span></label>
+        <nav class="navigation">
+          <ul>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li class="search-icon">
+              <input type="search" placeholder="Search">
+              <label class="icon">
+                <span class="fas fa-search"></span>
+              </label>
+            </li>
+            <li class="car" >
+              <svg class="bi bi-cart3" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+              </svg>
+                <div id="carrito" class="dropdown-menu">
+                  <table id="lista-carrito" class="table">
+                      <thead>
+                          <tr>
+                              <th>Imagen</th>
+                              <th>Nombre</th>
+                              <th>Precio</th>
+                              <th></th>
+                          </tr>
+                      </thead>
+                      <tbody></tbody>
+                  </table>
+
+                  <a href="#" id="vaciar-carrito" class="button-vaciar">Vaciar Carrito</a>
+                  <a href="#" id="procesar-pedido" class="button-pedido">Procesar Compra</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+<main>
+
+        <div class="modal" id="modal">
+          <div class="modal-content">
+            <img src="" alt="" class="modal-img" id="modal-img">
+          </div>
+          <div class="modal-boton" id="modal-boton">X</div>
+        </div>
+
+        <div class="container-productos" id="lista-productos">
+
+          <div class="card">
+            <img src="IMG/images (5).jfif" class="card-img">
+            <h5>PLAY STATION 4</h5>
+            <p>SKU: ROP0000074
+              Procesador: 8 núcleos AMD.
+Gráficos: GPU AMD GCN, 1.84 teraflops.
+
+
+            </p>
+            <p>Bs.<small class="precio">5.500</small></p>
+            <a href="#" class="button agregar-carrito" data-id="1">Comprar</a>
+          </div>
+          <div class="card">
+            <img src="IMG/images (6).jfif" class="card-img">
+            <h5>NINTENDO SWITCH</h5>
+            <p>SKU: JUG0000005
+              Pantalla: 6.2” táctil, 1280x720 píxeles.
+Procesador: NVIDIA Tegra.
+
+            </p>
+            <p>Bs.<small class="precio">1.400</small></p>
+            <a href="#" class="button agregar-carrito" data-id="2">Comprar</a>
+          </div>
+          <div class="card">
+            <img src="IMG/images (7).jfif" class="card-img">
+            <h5>PLAY STATION 5</h5>
+            <p>SKU: BPY4UND
+              Procesador: AMD Ryzen Zen 2 (8 núcleos, 3.5 GHz).
+Gráficos: GPU RDNA 2, 10.28 TFLOPS.
+
+            </p>
+            <p>Bs.<small class="precio">5.500</small></p>
+            <a href="#" class="button agregar-carrito" data-id="3">Comprar</a>
+          </div>
+
+          <div class="card">
+            <img src="IMG/images (8).jfif" class="card-img">
+            <h5>PSP</h5>
+            <p>SKU: DDMB7U70GR
+              Pantalla: 4.3 pulgadas, 480x272 píxeles.
+Procesador: MIPS R4000 (333 MHz).
+
+            </p>
+            <p>Bs.<small class="precio">500</small></p>
+            <a href="#" class="button agregar-carrito" data-id="4">Comprar</a>
+          </div>
+          <div class="card">
+            <img src="IMG/images (9).jfif" class="card-img">
+            <h5>Hartz - PC GAMER</h5>
+            <p>SKU: HDB04
+              Procesador: Intel Core i5 o AMD Ryzen 5.
+Tarjeta gráfica: NVIDIA GeForce GTX 1660 Ti o AMD Radeon RX 5600 XT.
+
+            </p>
+            <p>Bs.<small class="precio">6.500</small></p>
+            <a href="#" class="button agregar-carrito" data-id="5">Comprar</a>
+          </div>
+          <div class="card">
+            <img src="IMG/images (11).jfif" class="card-img">
+            <h5>LAPTOP GAMA BAJA</h5>
+            <p>SKU: ROP0000023
+              Procesador: Generalmente de gama baja, como Intel Celeron o AMD A4.
+RAM: Entre 2GB y 4GB.
+
+            </p>
+            <p>Bs.<small class="precio">1.500</small></p>
+            <a href="#" class="button agregar-carrito" data-id="6">Comprar</a>
+          </div>
+
+          <div class="card">
+            <img src="IMG/razer-blade-14-07.webp" class="card-img">
+            <h5>LAPTOP GAMA MEDIA</h5>
+            <p>SKU: AP-D794-011</p>
+            <p>Bs.<small class="precio">2.800</small></p>
+            <a href="#" class="button agregar-carrito" data-id="7">Comprar</a>
+          </div>
+          <div class="card">
+            <img src="IMG/images (12).jfif" class="card-img">
+            <h5>LAPTOP LENOVO</h5>
+            <p>SKU: HTD-TSH023-1
+              Procesador: Intel Core i3, i5 o AMD Ryzen 3, 5 (dependiendo del modelo).
+
+
+            </p>
+            <p>Bs.<small class="precio">3.500</small></p>
+            <a href="#" class="button agregar-carrito" data-id="8">Comprar</a>
+          </div>
+          <div class="card">
+            <img src="IMG/images (13).jfif" class="card-img">
+            <h5>Hills PD Metabolic Treats</h5>
+            <p>SKU: HPDMT
+              
+            </p>
+            <p>Bs.</B><small class="precio">9.500</small></p>
+            <a href="#" class="button agregar-carrito" data-id="9">Comprar</a>
+          </div>
+
+        </div>
+</main>
+  
+
+<footer class="footer-section">
+  <div class="copyright-area">
+      <div class="container-footer">
+          <div class="row-footer">
+              <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                  <div class="copyright-text">
+                      <p>Copyright &copy; 2024, todos los derechos reservados <a href="index.html">LINUX SHOP</a></p>
+                  </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                  <div class="footer-menu">
+                      <ul>
+                          <li><a href="nosotros.html">Nosotros</a></li>
+                          <li><a href="productos.html">Productos</a></li>
+                          <li><a href="contacto.html">Contacto</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer> 
+
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script  src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script  src="assets/js/scripts.js"></script>
+    <script src="assets/js/carrito.js"></script>
+    <script src="assets/js/pedido.js"></script>
+    <script src="assets/js/compra.js"></script>
+    
+</body>
+</html>
